@@ -1,74 +1,135 @@
-.judul{
-    font-family: 'Comfortaa', sans-serif;
-    margin-left: 15% ;
-   margin-top: 20%;
-    display:inline;
-    color: rgb(132, 50, 50);
-    font-size:40px
+.judul {
+  font-family: "Comfortaa", sans-serif;
+  margin-left: 100px;
+  margin-top: 20%;
+  display: inline;
+  color: rgb(132, 50, 50);
+  font-size: 40px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
-header{
-    margin-left: 14%;
-    margin-top: 3%;
-    font-family: 'Comfortaa', sans-serif;
-    padding: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+header {
+  margin-left: 80.4px;
+  margin-top: 3%;
+  font-family: "Comfortaa", sans-serif;
+  padding: 20px;
 }
-.head{
-    display: inline;
-    border: 3px solid black;
-    padding: 2%;
-    padding-right: 56%;
+.head {
+  display: inline;
+  border: 3px solid black;
+  padding: 20px;
+  padding-right: 77%;
 }
 
-body{
-    margin: auto;
-    background-color:blanchedalmond;
-    
+body {
+  margin: auto;
+  background-color: blanchedalmond;
 }
-a{
+a {
+  border-right: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img1 {
+  width: 1095px;
+  height: auto;
+  margin-left: 12.8%;
+  margin-top: 5%;
+  margin-right: 100px;
+  display: flex;
+}
+.textartikel {
+  /* text-align: center; */
+  text-align: justify;
+  margin-bottom: 5%;
+  margin-right:100px ;
+}
+p {
+  margin-left: 100px;
+  font-size: 20px;
+  margin-top: 3%;
+  font-family: sans-serif;
+}
+h1 {
+  margin-left: 100px;
+  margin-top: 3%;
+  font-family: sans-serif;
+}
+.p2 {
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 0%;
+}
+li {
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 1%;
+}
+@media only screen and (max-width: 576px) {
+  .judul {
+    font-family: "Comfortaa", sans-serif;
+    margin-left: 5%;
+    margin-top: 20%;
+    display: inline;
+    color: rgb(132, 50, 50);
+    font-size: 34px;
+  }
+  header {
+    margin-left: 1.5%;
+    margin-top: 3%;
+    font-family: "Comfortaa", sans-serif;
+    padding: 20px;
+  }
+  a {
     border-right: 3px solid black;
     padding-left: 10px;
     padding-right: 10px;
-    
-}
-.img1{
-    width:990px ;
+    font-size: 14px;
+  }
+  .head {
+    display: inline;
+    border: 3px solid black;
+    padding: 15px;
+    padding-right: 52.6%;
+  }
+  .img1 {
+    width: 517px;
     height: auto;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 5%;
-    margin-right:15% ;
+    margin-right: 15%;
     display: flex;
-}
-.textartikel{
+  }
+  p {
+    margin-left: 5%;
+    font-size: 14px;
+    margin-top: 3%;
+    font-family: sans-serif;
+  }
+  h1 {
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: sans-serif;
+    font-size:25px ;
+  }
+  .textartikel {
     /* text-align: center; */
     text-align: justify;
     margin-bottom: 5%;
-}
-p{
-    margin-left: 15%;
-    font-size:20px;
-    margin-top:3% ;
-    font-family:   sans-serif;
-}
-h1{
-    margin-left: 15%;
-    margin-top:3% ;
-    font-family:   sans-serif;
-}
-.p2{
-    margin-left: 15%;
-    font-size:20px;
-    font-family:   sans-serif;
+    margin-right:5% ;
+
+  }
+  .p2 {
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: sans-serif;
     margin-top: 0%;
-}
-li{
-    margin-left: 15%;
-    font-size:20px;
-    font-family:   sans-serif;
+  }
+  li {
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: sans-serif;
     margin-top: 1%;
 }
-h2{
-    margin-left: 15%;
-    margin-top:3% ;
-    font-family:   sans-serif;
 }

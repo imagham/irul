@@ -75,7 +75,7 @@ h3 {
 }
 .roti2 {
   width: 370px;
-  height: 220;
+  height: auto;
   background-color: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -129,4 +129,62 @@ form {
 .kotakpemesan {
   display: flex;
   justify-content: left;
+}
+@media only screen and (max-width: 576px) {
+  .judul {
+    font-family: "Comfortaa", sans-serif;
+    margin-left: 5%;
+    margin-top: 20%;
+    display: inline;
+    color: rgb(132, 50, 50);
+    font-size: 34px;
+  } header {
+    margin-left: 1.5%;
+    margin-top: 3%;
+    font-family: "Comfortaa", sans-serif;
+    padding: 20px;
+  }
+  a {
+    border-right: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .head {
+    display: inline;
+    border: 3px solid black;
+    padding: 15px;
+    padding-right: 52.6%;
+  }
+  .roti {
+    width: 110px;
+    height: auto;
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-decoration-break: calc();
+    margin-left: 5%;
+  }
+  #main {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    margin-left:1%;
+  }
+  .categories {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 34px;
+    src: url(image/Vogue.ttf);
+    font-family: Vogue;
+    color: rgb(109, 77, 35);
+  }
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
