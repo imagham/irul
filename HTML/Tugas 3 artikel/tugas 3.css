@@ -1,0 +1,74 @@
+.judul{
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 15% ;
+   margin-top: 20%;
+    display:inline;
+    color: rgb(132, 50, 50);
+    font-size:40px
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+header{
+    margin-left: 14%;
+    margin-top: 3%;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 20px;
+}
+.head{
+    display: inline;
+    border: 3px solid black;
+    padding: 2%;
+    padding-right: 56%;
+}
+
+body{
+    margin: auto;
+    background-color:blanchedalmond;
+    
+}
+a{
+    border-right: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.img1{
+    width:990px ;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right:15% ;
+    display: flex;
+}
+.textartikel{
+    /* text-align: center; */
+    text-align: justify;
+    margin-bottom: 5%;
+}
+p{
+    margin-left: 15%;
+    font-size:20px;
+    margin-top:3% ;
+    font-family:   sans-serif;
+}
+h1{
+    margin-left: 15%;
+    margin-top:3% ;
+    font-family:   sans-serif;
+}
+.p2{
+    margin-left: 15%;
+    font-size:20px;
+    font-family:   sans-serif;
+    margin-top: 0%;
+}
+li{
+    margin-left: 15%;
+    font-size:20px;
+    font-family:   sans-serif;
+    margin-top: 1%;
+}
+h2{
+    margin-left: 15%;
+    margin-top:3% ;
+    font-family:   sans-serif;
+}

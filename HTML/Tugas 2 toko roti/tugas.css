@@ -1,0 +1,132 @@
+/* .hedding{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 3, 3,6);
+    background-color:white;
+    font-family: */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+.judul {
+  font-family: "Comfortaa", sans-serif;
+  margin-left: 5%;
+  margin-top: 20%;
+  display: inline;
+  color: rgb(132, 50, 50);
+  font-size: 40px;
+}
+header {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: "Comfortaa", sans-serif;
+}
+.head {
+  border: 3px solid black;
+  display: inline;
+  padding: 20px;
+  padding-right: 79%;
+}
+a {
+  border-right: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.promo {
+  width: 1505px;
+  height: auto;
+}
+.categories {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 34px;
+  src: url(image/Vogue.ttf);
+  font-family: Vogue;
+  color: rgb(109, 77, 35);
+}
+@font-face {
+  src: url(image/Vogue.ttf);
+  font-family: Vogue;
+}
+body {
+  background-size: 2000px;
+  background-color: blanchedalmond;
+}
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.roti {
+  width: 370px;
+  height: 220;
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-decoration-break: calc();
+}
+.roti2 {
+  width: 370px;
+  height: 220;
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-decoration-break: calc();
+}
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  margin-left: 55px;
+}
+.tengah {
+  display: flex;
+  justify-content: left;
+  margin-top: 120px;
+  margin-left: 5%;
+}
+.kotaksaran {
+  margin-top: 3%;
+  font-family: sans-serif;
+  padding: 3%;
+  font-size: 40px;
+}
+
+footer {
+  margin-left: 0%;
+  font-size: 20px;
+  margin-top: 3%;
+  font-family: sans-serif;
+  background-color: beige;
+  padding-left: 4%;
+  padding-bottom: 4%;
+}
+.input {
+  display: flex;
+  justify-content: left;
+}
+.input2 {
+  display: flex;
+  justify-content: left;
+  padding-left: 17.7%;
+}
+
+form {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.kotakpemesan {
+  display: flex;
+  justify-content: left;
+}
