@@ -9,22 +9,30 @@
 
 .judul {
   font-family: "Comfortaa", sans-serif;
-  margin-left: 5%;
+  margin-left: 4.8%;
   margin-top: 20%;
   display: inline;
   color: rgb(132, 50, 50);
   font-size: 40px;
 }
 header {
-  margin-left: 5%;
+  margin-left: 4.8%;
   margin-top: 3%;
   font-family: "Comfortaa", sans-serif;
 }
+.vidio{
+  /* margin-left: 10%; */
+  display: flex;
+  margin-right: 10%;
+  width: 100%;
+  height: 750px;
+  margin-top: 30px;
+} 
 .head {
   border: 3px solid black;
   display: inline;
   padding: 20px;
-  padding-right: 79%;
+  padding-right: 77%;
 }
 a {
   border-right: 3px solid black;
@@ -61,6 +69,9 @@ h3 {
   text-align: center;
   padding: 10px 20px;
   font-size: 20px;
+}
+img{
+  border-radius: 10px;
 }
 .roti {
   width: 370px;
@@ -133,16 +144,21 @@ form {
 @media only screen and (max-width: 576px) {
   .judul {
     font-family: "Comfortaa", sans-serif;
-    margin-left: 5%;
-    margin-top: 20%;
+    margin-left: 4%;
     display: inline;
     color: rgb(132, 50, 50);
     font-size: 34px;
   } header {
-    margin-left: 1.5%;
+    margin-left: 0.4%;
     margin-top: 3%;
     font-family: "Comfortaa", sans-serif;
     padding: 20px;
+  }
+  .vidio{
+    display: flex;
+    margin-right: 28px;
+    width: 100%;
+    height: 310px;
   }
   a {
     border-right: 3px solid black;
@@ -156,10 +172,12 @@ form {
     padding: 15px;
     padding-right: 52.6%;
   }
+  img{
+    border-radius: 10px;
+  }
   .roti {
-    width: 110px;
-    height: auto;
-    background-color: beige;
+    width: 225px;
+    background-color:beige;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     margin-left: 5%;
@@ -167,16 +185,19 @@ form {
     border-radius: 10px;
     box-decoration-break: calc();
     margin-left: 5%;
+    padding: 5px;
   }
   #main {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 10%;
+    display: grid;
+    padding-right:5%;
+    grid-template-columns: auto auto ;
+    padding: 20px;
     margin-left:1%;
+    margin-right: 5%;
   }
   .categories {
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
     font-size: 34px;
     src: url(image/Vogue.ttf);
     font-family: Vogue;
@@ -185,6 +206,18 @@ form {
   .container {
     text-align: center;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size:20px;
+  }
+  .roti2 {
+    width: 225px;
+    background-color:beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-decoration-break: calc();
+    margin-left: 5%;
+    padding: 5px;
   }
 }
