@@ -1,15 +1,16 @@
 .judul {
   font-family: "Comfortaa", sans-serif;
-  margin-left: 100px;
-  margin-top: 0px;
+  margin-left: 90px;
+  margin-top: 5px;
   display: inline;
   color: rgb(132, 50, 50);
   font-size: 40px;
+  padding: 5px
 }
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 header {
-  margin-left: 80.4px;
-  margin-top: 3%;
+  margin-left: 70px;
+  margin-top: 2%;
   font-family: "Comfortaa", sans-serif;
   padding: 20px;
 }

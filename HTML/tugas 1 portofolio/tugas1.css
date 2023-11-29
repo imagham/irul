@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+/* laptop */
+@media only screen and (min-width: 1200px) {
+.judul {
+    font-family: "Comfortaa", sans-serif;
+    margin-left: 5%;
+    margin-top: 5px;
+    display: inline;
+    color: rgb(132, 50, 50);
+    font-size: 40px;
+    padding: 5px
+  }
+  
+  header {
+    margin-left: 3.7%;
+    margin-top: 2%;
+    font-family: "Comfortaa", sans-serif;
+    padding: 20px;
+  }
+  .head {
+    display: inline;
+    border: 3px solid black;
+    padding: 20px;
+    padding-right: 81%;
+  }
+  body {
+    margin: auto;
+    background-color: blanchedalmond;
+  }
+  a {
+    border-right: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
+  .About {
+    padding-top: 30px;
+    font-size: 34px;
+    src: url(image/Vogue.ttf);
+    font-family: Vogue;
+    color: rgb(109, 77, 35);
+    margin-left: 5% ;
+  } 
+  .textartikel {
+    text-align: justify;
+    margin-left: 9%;
+    margin-right: 20px;
+  }   
+  p {
+    margin-left: 5%;
+    font-size: 18px;
+    margin-top: 0%;
+    font-family: sans-serif;
+  }
+  .toko{
+    width:600px ;
+    padding:20px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+  } 
+  .li{
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-right:5% ; 
+    font-family: sans-serif;
+    font-size:18px ;
+    margin-left: 5%;
+  }
+  .isiabout{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-right: 6%;
+  }
+}
+  /* hp */
+  @media only screen and (max-width: 576px) {
+    .judul {
+      font-family: "Comfortaa", sans-serif;
+      margin-left: 5%;
+      margin-top: 20%;
+      display: inline;
+      color: rgb(132, 50, 50);
+      font-size: 34px;
+    }
+    header {
+      margin-left: 1.5%;
+      margin-top: 3%;
+      font-family: "Comfortaa", sans-serif;
+      padding: 20px;
+    }
+    a {
+      border-right: 3px solid black;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 14px;
+    }
+    .head {
+      display: inline;
+      border: 3px solid black;
+      padding: 15px;
+      padding-right: 50%;
+    }
+    body {
+        margin: auto;
+        background-color: blanchedalmond;
+      }
+    .About {
+        padding-top: 30px;
+        font-size: 34px;
+        src: url(image/Vogue.ttf);
+        font-family: Vogue;
+        color: rgb(109, 77, 35);
+        margin-left: 5% ;
+      }
+      p {
+        margin-left: 5%;
+        font-size: 14px;
+        margin-top: 3%;
+        font-family: sans-serif;
+      }
+      .textartikel {
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-right:5% ;
+      }
+      img{
+        border-radius: 10px;
+      }
+    .toko{
+      width:87% ;
+      padding:10px;
+      background-color: beige;
+      margin:5% 5%;
+      border-radius: 10px;
+    }
+    .li{
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-right:5% ; 
+        font-family: sans-serif;
+        font-size: 14px;
+        
+    }
+  }
+
+  /* lptp */
+  /* @media only screen and (min-width: 1200px) { */
+    
+  /* } */
