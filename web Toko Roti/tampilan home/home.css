@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+.judul {
+    font-family: "Comfortaa", sans-serif;
+    margin-left: 90px;
+    margin-top: 5px;
+    display: inline;
+    color: rgb(132, 50, 50);
+    font-size: 40px;
+    padding: 5px
+  }
+  body {
+    margin: auto;
+    background-color: blanchedalmond;
+  }
+  header {
+    margin-left: 70px;
+    margin-top: 2%;
+    font-family: "Comfortaa", sans-serif;
+    padding: 20px;
+    display: flex;
+  }
+  .head {
+    display: inline;
+    border: 3px solid black;
+    padding: 20px;
+    padding-right: 77%;
+  }
+  a {
+    border-right: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
