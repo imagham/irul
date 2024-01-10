@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 .judul {
     font-family: "Comfortaa", sans-serif;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 5px;
     display: inline;
     color: rgb(132, 50, 50);
@@ -13,7 +13,7 @@
     background-color: blanchedalmond;
   }
   header {
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: 2%;
     font-family: "Comfortaa", sans-serif;
     padding: 20px;
@@ -30,4 +30,21 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .categories{
+    text-align: center;
+  margin-top: 130px;
+  font-size: 34px;
+  src: url(image/Vogue.ttf);
+  font-family: Vogue;
+  color: rgb(109, 77, 35);
+  }
+  .img1 {
+    width: 1095px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 5%;
+    margin-right: 100px;
+    display: flex;
+  }
+
   
